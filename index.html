@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-movies - Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body {
+			font-family: 'Calibri';
+			margin: 0;
+		}
+
+		.header {
+			background-color: darkred;
+			padding: 20px 0 10px 50px;
+		}
+
+		.footer {
+			background-color: #1e1e1e;
+			padding: 20px 0 20px 10px;
+			position: relative;
+		    min-height: 10vh;
+		    display: flex;
+		    justify-content: center;
+		    flex-direction: column;
+		}
+
+		.content {
+			padding: 20px 20px 20px 50px;
+		}
+
+		.topnav {
+			overflow: hidden;
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.topnav a:hover {
+			background-color: #d32f2f;
+			color: white;
+		}
+
+		.topnav .search-container {
+			float: right;
+		}
+
+		.topnav input[type=text] {
+			padding: 8px;
+			margin-top: 8px;
+			font-size: 14px;
+			border: none;
+			width: 400px;
+		}
+
+		.topnav .search-container button {
+			float: right;
+			padding: 6px 10px;
+			margin-top: 8px;
+			margin-right: 16px;
+			background: #ddd;
+			font-size: 17px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.topnav .search-container button:hover {
+			background: #ccc;
+		}
+
+		#pic {
+			width: 220px;
+			height: 300px;
+			float: left;
+			position: relative;
+		    min-height: 1px;
+		    padding-right: 15px;
+		    padding-left: 15px;
+		    margin: 15px auto auto;
+		    display: block;
+		}
+
+		div.item {
+		    vertical-align: top;
+		    display: inline-block;
+		    text-align: center;
+		}
+
+		.container {
+			background-color: #fefefe;
+			margin: 20px auto;
+			padding-bottom: 20px;
+			border: 1px solid #888;
+			width: 100%;
+		}
+
+		.logo {
+			position: absolute;
+			top: 30px;
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<section class="header">
+		<img src="logo.png" class="logo">
+		<a href="index.html" style="text-decoration: none;"><h1 style="color: white; padding-left: 70px;">E-Movies</h1></a>
+		<div class="topnav">
+			<a href="index.html">Home</a>
+			<a href="movies.html">Movies</a>
+			<a href="tv-series.html">TV Shows</a>
+			<a href="about-us.html">About Us</a>
+			<a href="login.html">Login</a>
+			<div class="search-container">
+		    	<input type="text" placeholder="Enter your Keywords" name="search">
+		    	<button type="submit"><i class="fa fa-search"></i></button>
+			</div>
+		</div>
+	</section>
+
+	<section class="content">
+		<h1 style="color: darkred">Recommended</h1>
+		<div class="container">
+			<center>
+				<div class="item">
+					<img src="thor.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="lou.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="jura.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="day.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="sam.jpg" id="pic">
+				</div>
+			</center>
+		</div>
+
+		<h1 style="color: darkred">Latest Movies</h1>
+		<div class="container">
+			<center>
+				<div class="item">
+					<img src="jura.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="fall.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="day.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="thor.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="top.jpg" id="pic">
+				</div>
+			</center>
+		</div>
+
+		<h1 style="color: darkred">Latest TV Series</h1>
+		<div class="container">
+			<center>
+				<div class="item">
+					<img src="rings.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="young.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="loki.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="hawkeye.jpg" id="pic">
+				</div>
+				<div class="item">
+					<img src="twd.jpg" id="pic">
+				</div>
+			</center>
+		</div>
+	</section>
+
+	<section class="footer">
+		<h3 style="margin-left: 70px; color: white">Follow Us</h3>
+		<div style="margin-left: 80px;">
+			<img src="social.png" style="width: 250px;">
+		</div>
+	</section>
+</body>
+</html>
